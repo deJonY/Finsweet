@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+main {
+  padding-top: 80px;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+} 
+
+#register-forms {
+  padding-bottom: 200px;
+}
+
+.register__form {
+  .register__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 69px;
+    h1 {
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      text-align: center;
+      letter-spacing: 1px;
+      color: #232536;
+    }
+  }
+  #register-form {
+    .register__firstname,
+    .register__lastname,
+    .register__username,
+    .register__password,
+    .register__password2 {
+      width: 768px;
+      height: 64px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #232536;
+    }
+    .register-password {
+      position: relative;
+      #togglePassword {
+        position: absolute;
+        top: 42px;
+        right: 30px;
+        cursor: pointer;
+        z-index: 99999;
+      }
+    }
+    .register-password2 {
+      position: relative;
+      #togglePassword2 {
+        position: absolute;
+        top: 42px;
+        right: 30px;
+        cursor: pointer;
+        z-index: 99999;
+      }
+    }
+  }
+  .wrapper {
+    .form__btn {
+      height: 48px;
+      background: #ffd050;
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #232536;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    #register-form {
+      .register__firstname,
+      .register__lastname,
+      .register__username,
+      .register__password,
+      .register__password2 {
+        width: 576px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .register__title {
+    h1 {
+      font-size: 32px !important;
+    }
+  }
+  .wrapper {
+    #register-form {
+      .register__firstname,
+      .register__lastname,
+      .register__username,
+      .register__password,
+      .register__password2 {
+        width: 375px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .wrapper {
+    #register-form {
+      .register__firstname,
+      .register__lastname,
+      .register__username,
+      .register__password,
+      .register__password2 {
+        width: 300px !important;
+      }
+    }
+  }
+}

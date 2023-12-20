@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+main {
+  padding-top: 80px;
+}
+
+.nav .nav-left li {
+  padding-bottom: 16px;
+}
+.nav .nav-left li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+#blog-post {
+  padding-top: 56px;
+  padding-bottom: 128px;
+}
+#blog-post .blog-post .blog-post__img {
+  padding-bottom: 63px;
+}
+#blog-post .blog-post .blog-post__img img {
+  width: 100%;
+}
+#blog-post .blog-post .blog-post__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  padding-bottom: 24px;
+}
+#blog-post .blog-post .blog-post__content .blog-post__title h5 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #592ea9;
+  opacity: 0.87;
+}
+#blog-post .blog-post .blog-post__content .blog-post__title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+#blog-post .blog-post .blog-post__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  padding-bottom: 62px;
+}
+#blog-post .blog-post .blog-post__heading h1 {
+  max-width: 843px;
+  padding-bottom: 32px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+#blog-post .blog-post .blog-post__heading h3 {
+  text-align: left;
+  max-width: 430px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+}
+#blog-post .blog-post .blog-post__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#blog-post .blog-post .blog-post__description p {
+  max-width: 837px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+@media (max-width: 450px) {
+  .blog-post .blog-post__heading {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    justify-content: start;
+  }
+  .blog-post .blog-post__heading h1 {
+    line-height: 130% !important;
+    font-size: 32px !important;
+  }
+  .blog-post .blog-post__heading h3 {
+    font-size: 22px !important;
+  }
+  .blog-post .blog-post__description {
+    margin-top: -40px;
+  }
+  .blog-post .blog-post__description p {
+    line-height: 130% !important;
+    font-size: 12px !important;
+  }
+}

@@ -1,0 +1,63 @@
+main {
+  padding-top: 80px;
+}
+
+.nav .nav-left li {
+  padding-bottom: 16px;
+}
+.nav .nav-left li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.myposts-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myposts-content .myposts__title h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+#myposts {
+  margin-top: 64px;
+}
+#myposts .myposts__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  gap: 32px;
+}
+#myposts .myposts__content .myposts__title h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592ea9;
+}
+#myposts .myposts__content .myposts__title h6 {
+  padding: 12px 0;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+#myposts .myposts__content .myposts__title p {
+  max-width: 696px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}

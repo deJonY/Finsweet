@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+main {
+  padding-top: 80px;
+}
+
+#login-forms {
+  padding-bottom: 200px;
+}
+
+.login__form {
+  .login__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 68px;
+    h1 {
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      text-align: center;
+      letter-spacing: 1px;
+      color: #232536;
+    }
+  }
+  #login-form {
+    .login__username,
+    .login__password {
+      width: 768px;
+      height: 64px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #232536;
+    }
+    .login-password {
+      position: relative;
+      #togglePassword {
+        position: absolute;
+        top: 42px;
+        right: 30px;
+        cursor: pointer;
+        z-index: 99999;
+      }
+    }
+  }
+  .wrapper {
+    .form__btn {
+      height: 48px;
+      background: #ffd050;
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #232536;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    #login-form {
+      .login__username,
+      .login__password {
+        width: 576px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .login__title {
+    h1 {
+      font-size: 32px !important;
+    }
+  }
+  .wrapper {
+    #login-form {
+      .login__username,
+      .login__password {
+        width: 375px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .wrapper {
+    #login-form {
+      .login__username,
+      .login__password {
+        width: 300px !important;
+      }
+    }
+  }
+}
